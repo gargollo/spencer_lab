@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-title" href="{{ '/' | relative_url }}">
+      {{ site.title }}
+      <span class="dept">{{ site.contact.department }}</span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        {% for item in site.nav %}
+          {% assign current = page.url | relative_url %}
+          {% assign target = item.url | relative_url %}
+          <li>
+            <a href="{{ target }}"{% if current == target %} class="active" aria-current="page"{% endif %}>
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

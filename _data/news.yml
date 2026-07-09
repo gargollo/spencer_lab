@@ -1,0 +1,14 @@
+# Lab news, most recent first. Duplicate a block below for each item.
+# "date" just needs to be readable text (e.g. "July 2026") — it's for
+# display, not sorted automatically, so keep newest at the top.
+
+- date: "July 2026"
+  title: "Placeholder news headline"
+  body: >
+    Placeholder text describing the news item — a new publication,
+    a lab member joining, an award, a talk, etc.
+
+- date: "March 2026"
+  title: "Placeholder news headline"
+  body: >
+    Placeholder text describing another news item.

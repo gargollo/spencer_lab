@@ -1,0 +1,33 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">News</p>
+    <h1>Lab news</h1>
+    <hr class="hero-rule">
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="placeholder-note">
+      Edit the entries below in <code>_data/news.yml</code> — add a new
+      block at the top for the latest item.
+    </div>
+    <div class="news-list">
+      {% for item in site.data.news %}
+        <article class="news-item">
+          <div class="news-date">{{ item.date }}</div>
+          <div class="news-body">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.body }}</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

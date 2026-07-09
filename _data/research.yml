@@ -1,0 +1,17 @@
+# Research focus areas shown on the Research page.
+# Add, remove, or edit entries below — each becomes one card.
+# "title" is the short name, "summary" is 1-3 sentences.
+
+- title: "Focus Area One"
+  summary: >
+    Placeholder text. Describe the first research direction of the
+    lab in a few sentences — what question you're asking and why it
+    matters.
+
+- title: "Focus Area Two"
+  summary: >
+    Placeholder text. Describe the second research direction here.
+
+- title: "Focus Area Three"
+  summary: >
+    Placeholder text. Describe the third research direction here.

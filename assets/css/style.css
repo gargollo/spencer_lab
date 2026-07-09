@@ -1,0 +1,268 @@
+/* ============================================================
+   SPENCER LAB — DESIGN TOKENS
+   Fonts: Source Serif 4 (display/headlines) + Source Sans 3 (body/UI)
+   — the same type family Stanford's own identity system uses —
+   paired with the official Stanford color palette.
+   ============================================================ */
+
+:root {
+  /* Stanford primary palette */
+  --cardinal:      #8C1515;
+  --cardinal-dark:  #820000;
+  --black:          #2E2D29;
+  --cool-gray:      #4D4F53;
+  --gray-40:        #ABABA9;
+  --gray-20:        #D5D5D4;
+  --gray-10:        #EAEAEA;
+  --white:          #FFFFFF;
+
+  /* Accent (chosen to pair with Cardinal Red) */
+  --palo-alto:       #175E54;
+  --palo-alto-light: #2D716F;
+
+  /* Surface tints */
+  --bg:            var(--white);
+  --bg-alt:        #F7F6F3;   /* warm-neutral section break, not pure gray */
+
+  /* Type */
+  --font-display: "Source Serif 4", "Source Serif Pro", Georgia, serif;
+  --font-body:    "Source Sans 3", "Source Sans Pro", -apple-system, sans-serif;
+
+  /* Rhythm */
+  --max-width: 960px;
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.75rem;
+  --space-4: 3rem;
+  --space-5: 5rem;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--black);
+  background: var(--bg);
+  line-height: 1.6;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--palo-alto);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+a:hover, a:focus { border-bottom-color: var(--palo-alto); }
+a:focus-visible {
+  outline: 2px solid var(--palo-alto);
+  outline-offset: 2px;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 var(--space-2);
+  color: var(--black);
+}
+h1 { font-size: clamp(2.1rem, 5vw, 3.1rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 1.9rem); }
+h3 { font-size: 1.15rem; }
+
+p { margin: 0 0 var(--space-2); }
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-3);
+}
+
+/* ---------- header / nav ---------- */
+.site-header {
+  border-bottom: 3px solid var(--cardinal);
+  padding: var(--space-3) 0 var(--space-2);
+}
+.site-header .wrap {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+.site-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--black);
+  text-decoration: none;
+  border-bottom: none;
+}
+.site-title:hover { border-bottom: none; color: var(--cardinal); }
+.site-title .dept {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cool-gray);
+  margin-top: 2px;
+}
+
+nav.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: var(--space-3);
+  margin: 0;
+  padding: 0;
+}
+nav.main-nav a {
+  color: var(--black);
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 4px;
+}
+nav.main-nav a:hover,
+nav.main-nav a.active {
+  color: var(--cardinal);
+  border-bottom-color: var(--cardinal);
+}
+
+/* ---------- hero ---------- */
+.hero {
+  padding: var(--space-5) 0 var(--space-4);
+}
+.hero .eyebrow {
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--palo-alto);
+  margin-bottom: var(--space-2);
+}
+.hero h1 { max-width: 760px; }
+.hero .lede {
+  max-width: 640px;
+  font-size: 1.15rem;
+  color: var(--cool-gray);
+}
+.hero-rule {
+  width: 64px;
+  height: 4px;
+  background: var(--palo-alto);
+  margin: var(--space-3) 0;
+  border: none;
+}
+
+/* ---------- generic sections ---------- */
+.section {
+  padding: var(--space-4) 0;
+}
+.section.alt {
+  background: var(--bg-alt);
+}
+.section-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cool-gray);
+  margin-bottom: var(--space-1);
+}
+
+/* ---------- cards / grids ---------- */
+.grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin-top: var(--space-3);
+}
+.card {
+  border-top: 3px solid var(--cardinal);
+  padding-top: var(--space-2);
+}
+.card h3 { margin-bottom: var(--space-1); }
+.card p { color: var(--cool-gray); font-size: 0.98rem; }
+
+/* ---------- people ---------- */
+.people-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: var(--space-3);
+}
+.person-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--gray-10);
+  border-radius: 4px;
+  margin-bottom: var(--space-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-40);
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+.person-photo img { width: 100%; height: 100%; object-fit: cover; }
+.person-name { font-weight: 700; margin-bottom: 0; }
+.person-role {
+  font-size: 0.85rem;
+  color: var(--palo-alto-light);
+  font-weight: 600;
+  margin-bottom: var(--space-1);
+}
+.person-bio { font-size: 0.92rem; color: var(--cool-gray); }
+
+/* ---------- news ---------- */
+.news-list { margin-top: var(--space-3); }
+.news-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--gray-20);
+}
+.news-item:first-child { border-top: 1px solid var(--gray-20); }
+.news-date {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--cool-gray);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+.news-body h3 { font-size: 1.1rem; margin-bottom: var(--space-1); }
+.news-body p { color: var(--cool-gray); margin-bottom: 0; }
+
+@media (max-width: 560px) {
+  .news-item { grid-template-columns: 1fr; }
+}
+
+/* ---------- footer ---------- */
+.site-footer {
+  border-top: 1px solid var(--gray-20);
+  padding: var(--space-4) 0;
+  margin-top: var(--space-4);
+  color: var(--cool-gray);
+  font-size: 0.88rem;
+}
+.site-footer a { color: var(--cool-gray); }
+.site-footer a:hover { color: var(--cardinal); border-bottom-color: var(--cardinal); }
+
+/* ---------- placeholder notice (remove once real content is in) ---------- */
+.placeholder-note {
+  background: #FFF7F0;
+  border: 1px dashed var(--gray-40);
+  color: var(--cool-gray);
+  font-size: 0.85rem;
+  padding: var(--space-2);
+  border-radius: 4px;
+  margin-bottom: var(--space-3);
+}

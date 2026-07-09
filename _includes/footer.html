@@ -1,0 +1,10 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      {{ site.title }} · {{ site.contact.department }}<br>
+      {{ site.contact.address }}<br>
+      <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+    </p>
+    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Site built with Jekyll, hosted on GitHub Pages.</p>
+  </div>
+</footer>

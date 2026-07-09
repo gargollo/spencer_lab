@@ -1,0 +1,37 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Stanford University &middot; [Your Department]</p>
+    <h1>We study [placeholder mission — one sentence on what the lab investigates].</h1>
+    <hr class="hero-rule">
+    <p class="lede">
+      Placeholder lede paragraph. Two or three sentences expanding on the
+      lab's mission, approach, and what makes the work distinct — replace
+      this with your own voice once you have final copy.
+    </p>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="placeholder-note">
+      This is placeholder content. Edit the text above directly in
+      <code>index.html</code>, and edit the cards below in
+      <code>_data/research.yml</code>.
+    </div>
+    <p class="section-label">Research</p>
+    <div class="grid">
+      {% for area in site.data.research %}
+        <div class="card">
+          <h3>{{ area.title }}</h3>
+          <p>{{ area.summary }}</p>
+        </div>
+      {% endfor %}
+    </div>
+    <p style="margin-top: 1.5rem;"><a href="{{ '/research/' | relative_url }}">See all research &rarr;</a></p>
+  </div>
+</section>

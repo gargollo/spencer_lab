@@ -1,0 +1,23 @@
+# Lab roster shown on the People page.
+# Duplicate a block below for each person. "photo" is optional — leave
+# blank (photo: "") to show a placeholder square instead of a broken image.
+# Put photo files in /assets/images/people/ and reference them like
+# "/assets/images/people/jsmith.jpg"
+
+- name: "Dr. Jordan Spencer"
+  role: "Principal Investigator"
+  photo: ""
+  bio: "Placeholder bio. One or two sentences on background and interests."
+  link: ""
+
+- name: "First Last"
+  role: "Postdoctoral Scholar"
+  photo: ""
+  bio: "Placeholder bio."
+  link: ""
+
+- name: "First Last"
+  role: "Ph.D. Student"
+  photo: ""
+  bio: "Placeholder bio."
+  link: ""

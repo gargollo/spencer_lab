@@ -1,0 +1,46 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">People</p>
+    <h1>Who we are</h1>
+    <hr class="hero-rule">
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="placeholder-note">
+      Edit the entries below in <code>_data/people.yml</code>. Add a
+      photo by placing an image in <code>/assets/images/people/</code>
+      and setting <code>photo: "/assets/images/people/filename.jpg"</code>
+      — leave it blank for a placeholder square.
+    </div>
+    <div class="people-grid">
+      {% for person in site.data.people %}
+        <div class="person">
+          <div class="person-photo">
+            {% if person.photo and person.photo != "" %}
+              <img src="{{ person.photo | relative_url }}" alt="Photo of {{ person.name }}">
+            {% else %}
+              Photo
+            {% endif %}
+          </div>
+          <p class="person-name">
+            {% if person.link and person.link != "" %}
+              <a href="{{ person.link }}">{{ person.name }}</a>
+            {% else %}
+              {{ person.name }}
+            {% endif %}
+          </p>
+          <p class="person-role">{{ person.role }}</p>
+          <p class="person-bio">{{ person.bio }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
