@@ -91,15 +91,19 @@
     breaks, same as we covered before.
   link: "anyaraju@stanford.edu"
 
-- name: "Siddu Shiva"
+- name: "Siddu Shivanagoudra"
   role: "Postdoctoral Scholar"
-  photo: ""
+  photo: "/assets/images/people/Siddu.jpeg"
   bio: " Bio"
   full_bio: >
-    Placeholder full bio. This can be several sentences or paragraphs —
-    background, training, research interests, whatever you want visible
-    only when someone clicks "Read full bio." Use <br><br> for paragraph
-    breaks, same as we covered before.
+    Siddu earned his Ph.D. in Biomedical Engineering and M.S. in Horticultural Sciences from 
+    Texas A&M University, where his doctoral work uncovered how gut microbiota-derived tryptophan 
+    metabolites signal to the intestinal epithelium. In the Spencer Lab, he uses targeted LC-MS/MS 
+    metabolomics and gnotobiotic mouse models to connect microbial metabolites to host immune and 
+    epithelial responses. Originally from Dharwad, India, Siddu is especially drawn to fermentation 
+    and how fermented foods shape the microbiome, and he hopes to translate that science into foods 
+    and therapies that improve everyday health. In his spare time, he plays cricket, hikes the trails 
+    around the Bay, picks up new skills whenever he can, and cooks Indian food at home.
   link: "siddu04@stanford.edu"
 
 - name: "William Rubin"

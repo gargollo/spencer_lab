@@ -10,26 +10,28 @@ permalink: /research/
     <h1>What we work on</h1>
     <hr class="hero-rule">
     <p class="lede">
-      Placeholder intro paragraph for the research page — a short
-      overview of the lab's overall approach before the specific
-      focus areas below.
+      Placeholder intro paragraph for the research page.
     </p>
   </div>
 </section>
 
+<nav class="research-index" aria-label="Research areas">
+  <div class="wrap">
+    <ul>
+      {% for area in site.data.research %}
+        <li><a href="#{{ area.title | slugify }}">{{ area.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
 <section class="section">
   <div class="wrap">
-    <div class="placeholder-note">
-      Edit the entries below in <code>_data/research.yml</code> — add,
-      remove, or rewrite items and they'll appear here automatically.
-    </div>
-    <div class="grid">
-      {% for area in site.data.research %}
-        <div class="card">
-          <h3>{{ area.title }}</h3>
-          <p>{{ area.summary }}</p>
-        </div>
-      {% endfor %}
-    </div>
+    {% for area in site.data.research %}
+      <article class="research-block" id="{{ area.title | slugify }}">
+        <h2>{{ area.title }}</h2>
+        <p>{{ area.summary }}</p>
+      </article>
+    {% endfor %}
   </div>
 </section>
