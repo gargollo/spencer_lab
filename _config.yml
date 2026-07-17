@@ -20,8 +20,8 @@ nav:
 # Contact / footer info — shown in footer.html
 contact:
   email: "spencerlab@stanford.edu"
-  department: "Department of [Your Department], Stanford University"
-  address: "450 Jane Stanford Way, Stanford, CA 94305"
+  department: "Department of Gastroenterology and Hepatology, Stanford University"
+  address: "Alway Building, M215 <br><br> Stanford, CA 94305 <br><br> United States"
 
 markdown: kramdown
 plugins:

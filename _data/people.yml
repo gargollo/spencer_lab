@@ -9,7 +9,7 @@
   photo: "/assets/images/people/spencer_lab.jpg"
   bio: "Gastroenterologist and Physician Scientist at Stanford University"
   full_bio: >
-    "Sean Spencer, MD,PhD is a Gastroenterologist and Physician Scientist —
+    Sean Spencer, MD,PhD is a Gastroenterologist and Physician Scientist —
     at Stanford University working to uncover the role of dietary intake 
     and the gut microbiome in gastrointestinal disease. Sean obtained his 
     medical degree University of Pennsylvania, earning his PhD studying 
@@ -18,7 +18,7 @@
     and completed his Gastroenterology training at Stanford University where he studied 
     fermented food-immune interactions in the lab of Justin Sonnenburg, PhD. Sean has 
     launched a microbiome-focused clinical practice and laboratory at Stanford where he employs 
-    novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease." 
+    novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease. 
   link: "seanspen@stanford.edu"
 
 - name: "Annika Weber"
@@ -64,8 +64,7 @@
   full_bio: >
     Placeholder full bio. This can be several sentences or paragraphs —
     background, training, research interests, whatever you want visible
-    only when someone clicks "Read full bio." Use <br><br> for paragraph
-    breaks, same as we covered before.
+    only when someone clicks "Read full bio.".
   link: "ndione@stanford.edu"
 
 - name: "Maria Gargollo"
