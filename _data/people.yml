@@ -4,7 +4,7 @@
 # Put photo files in /assets/images/people/ and reference them like
 # "/assets/images/people/jsmith.jpg"
 
-- name: "Dr. Sean P. Spencer"
+- name: "Sean Spencer"
   role: "Principal Investigator"
   photo: "/assets/images/people/spencer_lab.jpg"
   bio: "Gastroenterologist and Physician Scientist at Stanford University"
