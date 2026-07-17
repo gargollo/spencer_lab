@@ -221,6 +221,27 @@ nav.main-nav a.active {
 }
 .person-bio { font-size: 0.92rem; color: var(--cool-gray); }
 
+.bio-details {
+  margin-top: 0.4rem;
+}
+.bio-details summary {
+  cursor: pointer;
+  color: var(--palo-alto);
+  font-size: 0.88rem;
+  font-weight: 600;
+  list-style: none; /* removes default triangle in some browsers */
+}
+.bio-details summary:hover {
+  border-bottom: 1px solid var(--palo-alto);
+}
+.bio-details summary::-webkit-details-marker {
+  display: none; /* removes default triangle in Chrome/Safari */
+}
+.person-full-bio {
+  margin-top: 0.5rem;
+  font-size: 0.92rem;
+  color: var(--cool-gray);
+}
 /* ---------- news ---------- */
 .news-list { margin-top: var(--space-3); }
 .news-item {

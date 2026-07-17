@@ -7,47 +7,95 @@
 - name: "Dr. Sean P. Spencer"
   role: "Principal Investigator"
   photo: "/assets/images/people/spencer_lab.jpg"
-  bio: "Sean Spencer, MD,PhD is a Gastroenterologist and Physician Scientist at Stanford University working to uncover the role of dietary intake and the gut microbiome in gastrointestinal disease. Sean obtained his medical degree University of Pennsylvania, earning his PhD studying nutritional immunology with Yasmine Belkaid, PhD at the National Institutes of Health (NIH), after which he moved to Boston for residency training at Massachusetts General Hospital and completed his Gastroenterology training at Stanford University where he studied fermented food-immune interactions in the lab of Justin Sonnenburg, PhD. Sean has launched a microbiome-focused clinical practice and laboratory at Stanford where he employs novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease."
+  bio: "Gastroenterologist and Physician Scientist at Stanford University"
+  full_bio: >
+    Sean Spencer, MD,PhD is a Gastroenterologist and Physician Scientist —
+    at Stanford University working to uncover the role of dietary intake 
+    and the gut microbiome in gastrointestinal disease. Sean obtained his 
+    medical degree University of Pennsylvania, earning his PhD studying 
+    nutritional immunology with Yasmine Belkaid, PhD at the National Institutes of Health (NIH),
+    after which he moved to Boston for residency training at Massachusetts General Hospital
+    and completed his Gastroenterology training at Stanford University where he studied 
+    fermented food-immune interactions in the lab of Justin Sonnenburg, PhD. Sean has 
+    launched a microbiome-focused clinical practice and laboratory at Stanford where he employs 
+    novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease. 
   link: ""
 
 - name: "Annika Weber"
   role: "Postdoctoral Scholar"
   photo: "/assets/images/people/AW.jpeg"
   bio: "Annika is a postdoctoral scholar in the Spencer Lab studying how gut microbes metabolize prebiotic fibers to produce bioactive metabolites linked to lowering disease risk. She holds an MS in Human Nutrition from the University of Sheffield and a PhD in Food Science and Human Nutrition from Colorado State University. Her work integrates multi-omic approaches to map diet-microbe-metabolite relationships. Annika aims to translate these mechanistic insights into microbiome-informed dietary strategies for reducing chronic diseases."
+  full_bio: >
+    Placeholder full bio. This can be several sentences or paragraphs —
+    background, training, research interests, whatever you want visible
+    only when someone clicks "Read full bio." Use <br><br> for paragraph
+    breaks, same as we covered before.
   link: "amweber@stanford.edu"
 
 - name: "Roujheen Sabetan"
   role: "Clinical Research Co-ordinator 2"
   photo: ""
   bio: " Roujheen joined the Spencer Lab in February 2026. She earned her Master of Public Health in Nutrition from UC Berkeley and brings over five years of research experience, primarily focused on nutrition and the microbiome. Prior to joining the Spencer Lab, she worked with the Nutrition Studies Research Group at Stanford as a Study Coordinator, where she supported multiple projects ranging from maternal and infant microbiome interventions to diet-based cancer prevention research in firefighters. Beyond her research work, Roujheen enjoys experimenting with new recipes and participating in grassroots community building efforts.."
+  full_bio: >
+    Placeholder full bio. This can be several sentences or paragraphs —
+    background, training, research interests, whatever you want visible
+    only when someone clicks "Read full bio." Use <br><br> for paragraph
+    breaks, same as we covered before.
   link: "rsabetan@stanford.edu"
 
 - name: "Aubrey Adiao"
   role: "Clinical Research Co-ordinator 2"
   photo: ""
   bio: "Aubrey is a Certified Clinical Research Coordinator who joined the Spencer Lab in November 2025. She brings over 12 years of human subjects research experience and previously worked on studies from a variety of disciplines such as Psychology, Neonatology, Infectious Diseases, and Oncology before hitting her stride in Gastroenterology and Hepatology. Aubrey is a Bay Area native and aspires in her career to bring opportunities for novel treatments and therapies to her local communities, especially the underserved and underrepresented. In her spare time, she loves to spend time with her husband and loved ones, travel, and defend her 1000+ day Duolingo streak."
+  full_bio: >
+    Placeholder full bio. This can be several sentences or paragraphs —
+    background, training, research interests, whatever you want visible
+    only when someone clicks "Read full bio." Use <br><br> for paragraph
+    breaks, same as we covered before.
   link: "aadiao@stanford.edu"
 
 - name: "Niokhor Dione"
-  role: "LSRP 1"
+  role: "Scientist"
   photo: ""
   bio: " Bio"
+  full_bio: >
+    Placeholder full bio. This can be several sentences or paragraphs —
+    background, training, research interests, whatever you want visible
+    only when someone clicks "Read full bio." Use <br><br> for paragraph
+    breaks, same as we covered before.
   link: ""
 
 - name: "Maria Gargollo"
-  role: "role"
+  role: "Master's Student"
   photo: ""
-  bio: " Bio"
+  bio: "Maria is completing the MTRAM program at Stanford."
+  full_bio: >
+   Maria Gargollo is a Master’s student in Translational Research and Applied Medicine at Stanford School of Medicine. 
+   Her academic and professional interests lie at the intersection of biomedical innovation and regulatory science. Her main 
+   focus is on how regulatory strategy can accelerate access to safe and effective therapies, microbiome based interventions and 
+   preventative measures. Through her training both on the bench and the pharmaceutical sector, she has gained experience in 
+   clinical research design, scientific communication and cross-disciplinary collaboration. She aims to build a career that 
+   bridges scientific discovery and regulatory decision-making to bring science based solutions to patientse.
   link: ""
 
 - name: "Anya Raju"
   role: "LSRP 1"
   photo: ""
   bio: " Bio"
+  full_bio: >
+    Placeholder full bio. This can be several sentences or paragraphs —
+    background, training, research interests, whatever you want visible
+    only when someone clicks "Read full bio." Use <br><br> for paragraph
+    breaks, same as we covered before.
   link: ""
 
 - name: "Siddu Shiva"
   role: "Postdoctoral Scholar"
   photo: ""
   bio: " Bio"
+  full_bio: >
+    Placeholder full bio. This can be several sentences or paragraphs —
+    background, training, research interests, whatever you want visible
+    only when someone clicks "Read full bio." Use <br><br> for paragraph
+    breaks, same as we covered before.
   link: ""

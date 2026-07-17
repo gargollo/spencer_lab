@@ -38,7 +38,12 @@ permalink: /people/
             {% endif %}
           </p>
           <p class="person-role">{{ person.role }}</p>
-          <p class="person-bio">{{ person.bio }}</p>
+          <p class="person-bio">
+            {{ person.bio }}
+            {% if person.full_bio and person.full_bio != "" %}
+              <span class="full-bio">{{ person.full_bio }}</span>
+              <a href="#" class="read-full-bio">Read full bio</a>
+            {% endif %}
         </div>
       {% endfor %}
     </div>
