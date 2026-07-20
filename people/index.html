@@ -14,39 +14,39 @@ permalink: /people/
 
 <section class="section">
   <div class="wrap">
-    <div class="placeholder-note">
-      Edit the entries below in <code>_data/people.yml</code>. Add a
-      photo by placing an image in <code>/assets/images/people/</code>
-      and setting <code>photo: "/assets/images/people/filename.jpg"</code>
-      — leave it blank for a placeholder square.
-    </div>
-    <div class="people-grid">
-      {% for person in site.data.people %}
-        <div class="person">
-          <div class="person-photo">
-            {% if person.photo and person.photo != "" %}
-              <img src="{{ person.photo | relative_url }}" alt="Photo of {{ person.name }}">
-            {% else %}
-              Photo
-            {% endif %}
-          </div>
-          <p class="person-name">
-            {% if person.link and person.link != "" %}
-              <a href="{{ person.link }}">{{ person.name }}</a>
-            {% else %}
-              {{ person.name }}
-            {% endif %}
-          </p>
-          <p class="person-role">{{ person.role }}</p>
-          <p class="person-bio">{{ person.bio }}</p>
-            {% if person.full_bio and person.full_bio != "" %}
+    {% for group in site.data.people %}
+      <div class="people-section">
+        <h2 class="people-section-title">{{ group.section }}</h2>
+        <hr class="section-divider">
+        <div class="people-grid">
+          {% for person in group.people %}
+            <div class="person">
+              <div class="person-photo">
+                {% if person.photo and person.photo != "" %}
+                  <img src="{{ person.photo | relative_url }}" alt="Photo of {{ person.name }}">
+                {% else %}
+                  Photo
+                {% endif %}
+              </div>
+              <p class="person-name">
+                {% if person.link and person.link != "" %}
+                  <a href="{{ person.link }}">{{ person.name }}</a>
+                {% else %}
+                  {{ person.name }}
+                {% endif %}
+              </p>
+              <p class="person-role">{{ person.role }}</p>
+              <p class="person-bio">{{ person.bio }}</p>
+              {% if person.full_bio and person.full_bio != "" %}
                 <details class="bio-details">
                   <summary>Read full bio</summary>
-                  <p class="full-bio">{{ person.full_bio }}</p>
+                  <p class="person-full-bio">{{ person.full_bio }}</p>
                 </details>
-            {% endif %}
+              {% endif %}
+            </div>
+          {% endfor %}
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
   </div>
 </section>
