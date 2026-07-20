@@ -296,6 +296,37 @@ nav.main-nav a.active {
 .site-footer a { color: var(--cool-gray); }
 .site-footer a:hover { color: var(--cardinal); border-bottom-color: var(--cardinal); }
 
+/*-----------publications----------*/
+.pub-list {
+  margin-top: var(--space-3);
+}
+.pub-list.featured .pub-item {
+  border-left: 3px solid var(--cardinal);
+  padding-left: var(--space-2);
+}
+.pub-item {
+  padding: var(--space-2) 0;
+  border-bottom: 1px solid var(--gray-20);
+}
+.pub-item:last-child {
+  border-bottom: none;
+}
+.pub-item h3 {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+.pub-authors {
+  font-size: 0.92rem;
+  color: var(--cool-gray);
+  margin-bottom: 2px;
+}
+.pub-journal {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--gray-40);
+  margin-bottom: 0;
+}
+
 /* ---------- placeholder notice (remove once real content is in) ---------- */
 .placeholder-note {
   background: #FFF7F0;

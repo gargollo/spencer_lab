@@ -1,0 +1,45 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Publications</p>
+    <h1>Publications</h1>
+    <hr class="hero-rule">
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <p class="section-label">Featured Publications</p>
+    <div class="pub-list featured">
+      {% for pub in site.data.publications %}
+        {% if pub.featured %}
+          <article class="pub-item">
+            <h3><a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+            <p class="pub-authors">{{ pub.authors }}</p>
+            <p class="pub-journal">{{ pub.journal }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <p class="section-label">All Publications</p>
+    <div class="pub-list">
+      {% for pub in site.data.publications %}
+        <article class="pub-item">
+          <h3><a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+          <p class="pub-authors">{{ pub.authors }}</p>
+          <p class="pub-journal">{{ pub.journal }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
