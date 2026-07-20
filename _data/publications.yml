@@ -1,0 +1,27 @@
+# Publications list. Set featured: true on your top 3 most impactful
+# papers — they'll show in the highlighted section up top. Every
+# entry, featured or not, also appears in "All Publications" below.
+
+- title: "Placeholder paper title one"
+  authors: "Spencer S, Last F, Last F, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: true
+
+- title: "Placeholder paper title two"
+  authors: "Spencer S, Last F, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: true
+
+- title: "Placeholder paper title three"
+  authors: "Spencer S, Last F, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: true
+
+- title: "Placeholder paper title four"
+  authors: "Last F, Spencer S, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: false

@@ -12,22 +12,22 @@
 - section: "Principal Investigator"
   people:
     - name: "Sean Spencer"
-  role: "Principal Investigator"
-  photo: "/assets/images/people/spencer_lab.jpg"
-  bio: "Gastroenterologist and Physician Scientist at Stanford University"
-  full_bio: >
-    Sean Spencer, MD,PhD is a Gastroenterologist and Physician Scientist —
-    at Stanford University working to uncover the role of dietary intake 
-    and the gut microbiome in gastrointestinal disease. Sean obtained his 
-    medical degree University of Pennsylvania, earning his PhD studying 
-    nutritional immunology with Yasmine Belkaid, PhD at the National Institutes of Health (NIH),
-    after which he moved to Boston for residency training at Massachusetts General Hospital
-    and completed his Gastroenterology training at Stanford University where he studied 
-    fermented food-immune interactions in the lab of Justin Sonnenburg, PhD. Sean has 
-    launched a microbiome-focused clinical practice and laboratory at Stanford where he employs 
-    novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease. 
-    Contact: <a href="mailto:sspencer@stanford.edu">sspencer@stanford.edu</a>
-  link: ""
+      role: "Principal Investigator"
+      photo: "/assets/images/people/spencer_lab.jpg"
+      bio: "Gastroenterologist and Physician Scientist at Stanford University"
+      full_bio: >
+        Sean Spencer, MD,PhD is a Gastroenterologist and Physician Scientist —
+        at Stanford University working to uncover the role of dietary intake 
+        and the gut microbiome in gastrointestinal disease. Sean obtained his 
+        medical degree University of Pennsylvania, earning his PhD studying 
+        nutritional immunology with Yasmine Belkaid, PhD at the National Institutes of Health (NIH),
+        after which he moved to Boston for residency training at Massachusetts General Hospital
+        and completed his Gastroenterology training at Stanford University where he studied 
+        fermented food-immune interactions in the lab of Justin Sonnenburg, PhD. Sean has 
+        launched a microbiome-focused clinical practice and laboratory at Stanford where he employs 
+        novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease. 
+        Contact: <a href="mailto:sspencer@stanford.edu">sspencer@stanford.edu</a>
+      link: ""
 
 - section: "Postdoctoral Scholars"
   people:
