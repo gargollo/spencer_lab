@@ -26,7 +26,8 @@
     fermented food-immune interactions in the lab of Justin Sonnenburg, PhD. Sean has 
     launched a microbiome-focused clinical practice and laboratory at Stanford where he employs 
     novel diagnostic and therapeutic modalities to better understand and treat his patients with GI disease. 
-  link: "seanspen@stanford.edu"
+    Contact: <a href="mailto:sspencer@stanford.edu">sspencer@stanford.edu</a>
+  link: ""
 
 - section: "Postdoctoral Scholars"
   people:
@@ -40,7 +41,8 @@
         the University of Sheffield and a PhD in Food Science and Human Nutrition from Colorado State University. 
         Her work integrates multi-omic approaches to map diet-microbe-metabolite relationships. Annika aims to 
         translate these mechanistic insights into microbiome-informed dietary strategies for reducing chronic diseases.
-      link: "amweber@stanford.edu"
+        Contact: <a href="mailto:amweber@stanford.edu">amweber@stanford.edu</a>
+      link: ""
 
     - name: "Siddu Shivanagoudra"
       role: "Postdoctoral Scholar"
@@ -55,6 +57,7 @@
         and how fermented foods shape the microbiome, and he hopes to translate that science into foods 
         and therapies that improve everyday health. In his spare time, he plays cricket, hikes the trails 
         around the Bay, picks up new skills whenever he can, and cooks Indian food at home.
+        <a href="mailto:siddu04@stanford.edu">siddu04@stanford.edu</a>
       link: "siddu04@stanford.edu"
 
 - section: "Clinical Team"
@@ -63,11 +66,13 @@
       role: "Clinical Research Co-ordinator 2"
       photo: ""
       bio: "Clinical Research Coordinator who joined the Spencer Lab in February 2026."
-      full_bio: "Roujheen earned her Master of Public Health in Nutrition from UC Berkeley and brings over five years of research 
+      full_bio: 
+        Roujheen earned her Master of Public Health in Nutrition from UC Berkeley and brings over five years of research 
         experience, primarily focused on nutrition and the microbiome. Prior to joining the Spencer Lab, she worked with 
         the Nutrition Studies Research Group at Stanford as a Study Coordinator, where she supported multiple projects 
         ranging from maternal and infant microbiome interventions to diet-based cancer prevention research in firefighters. 
-        Beyond her research work, Roujheen enjoys experimenting with new recipes and participating in grassroots community building efforts."
+        Beyond her research work, Roujheen enjoys experimenting with new recipes and participating in grassroots community building efforts.
+        <a href="mailto:rsabetan@stanford.edu">rsabetan@stanford.edu</a>
       link: "rsabetan@stanford.edu"
 
     - name: "Aubrey Adiao"
@@ -80,7 +85,8 @@
         Gastroenterology and Hepatology. Aubrey is a Bay Area native and aspires in her career to bring opportunities for 
         novel treatments and therapies to her local communities, especially the underserved and underrepresented. In 
         her spare time, she loves to spend time with her husband and loved ones, travel, and defend her 1000+ day Duolingo streak.
-      link: "aadiao@stanford.edu"
+        <a href="mailto:aadiao@stanford.edu">aadiao@stanford.edu</a>
+      link: ""
 
     - name: "Maria Gargollo"
       role: "Master's Student"
@@ -93,7 +99,8 @@
         preventative measures. Through her training both on the bench and the pharmaceutical sector, she has gained experience in 
         clinical research design, scientific communication and cross-disciplinary collaboration. She aims to build a career that 
         bridges scientific discovery and regulatory decision-making to bring science based solutions to patients.
-      link: "gargollo@stanford.edu"
+        <a href="mailto:gargollo@stanford.edu">gargollo@stanford.edu</a>
+      link: ""
 
     #- name: "First Last"
      # role: "Clinical Team"
@@ -113,7 +120,8 @@
         Placeholder full bio. This can be several sentences or paragraphs —
         background, training, research interests, whatever you want visible
         only when someone clicks "Read full bio.".
-      link: "ndione@stanford.edu"
+        <a href="mailto:ndione@stanford.edu">ndione@stanford.edu</a>
+      link: ""
     - name: "Anya Raju"
       role: "LSRP 1"
       photo: "/assets/images/people/AR.jpg"
@@ -126,7 +134,8 @@
         human gut microbiome at the Spencer lab. Anya hopes to apply for MD-PhD programs in 2027 and 
         pursue a career in medicine and translational research. Outside of her time in the lab, she 
         loves to read books and drink coffee.
-      link: "anyaraju@stanford.edu"
+         <a href="mailto:anyaraju@stanford.edu">anyaraju@stanford.edu</a>
+      link: ""
 
     - name: "William Rubin"
       role: "LSRP 1"
@@ -139,4 +148,5 @@
         cheese rinds at Tufts and worked in a fermentation lab at a Napa Valley winery. He's currently 
         assisting in research focused on the development of fermented food-based therapies to improve 
         immune health. Outside of the lab, he enjoys hiking, playing piano, and trying new restaurants.
+        <a href="mailto:wrubin@stanford.edu">wrubin@stanford.edu</a>
       link: "wrubin@stanford.edu"
