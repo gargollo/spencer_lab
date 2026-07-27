@@ -18,7 +18,7 @@ permalink: /people/
       <div class="people-section">
         <h2 class="people-section-title">{{ group.section }}</h2>
         <hr class="section-divider">
-        <div class="people-grid">
+        <div class="people-grid {{ group.section | slugify }}-grid">
           {% for person in group.people %}
             <div class="person">
               <div class="person-photo">
