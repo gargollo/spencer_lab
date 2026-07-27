@@ -1,0 +1,9 @@
+# Homepage photo carousel. Add/remove/reorder slides by editing this
+# list — order here is the order they appear in.
+
+- image: "/assets/images/carousel/photo1.jpg"
+  alt: "Lab members in the field"
+- image: "/assets/images/carousel/photo2.jpg"
+  alt: "Sample analysis in the lab"
+- image: "/assets/images/carousel/photo3.jpg"
+  alt: "Team meeting"

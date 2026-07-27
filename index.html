@@ -17,6 +17,52 @@ title: Home
   </div>
 </section>
 
+<section class="carousel" aria-label="Photo carousel">
+  <div class="wrap">
+    <div class="carousel-viewport">
+      <div class="carousel-track">
+        {% for slide in site.data.carousel %}
+          <div class="carousel-slide">
+            <img src="{{ slide.image | relative_url }}" alt="{{ slide.alt }}">
+          </div>
+        {% endfor %}
+      </div>
+      <button class="carousel-arrow prev" aria-label="Previous photo">&#8249;</button>
+      <button class="carousel-arrow next" aria-label="Next photo">&#8250;</button>
+    </div>
+  </div>
+</section>
+
+<script>
+(function () {
+  const track = document.querySelector('.carousel-track');
+  const slides = document.querySelectorAll('.carousel-slide');
+  const prevBtn = document.querySelector('.carousel-arrow.prev');
+  const nextBtn = document.querySelector('.carousel-arrow.next');
+  let index = 0;
+  let timer;
+
+  function goTo(i) {
+    index = (i + slides.length) % slides.length; // wraps around both directions
+    track.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  function startAutoplay() {
+    timer = setInterval(() => goTo(index + 1), 4000);
+  }
+
+  function resetAutoplay() {
+    clearInterval(timer);
+    startAutoplay();
+  }
+
+  nextBtn.addEventListener('click', () => { goTo(index + 1); resetAutoplay(); });
+  prevBtn.addEventListener('click', () => { goTo(index - 1); resetAutoplay(); });
+
+  startAutoplay();
+})();
+</script>
+
 <section class="section alt">
   <div class="wrap">
     <div class="placeholder-note">
