@@ -267,7 +267,7 @@ nav.main-nav a.active {
   overflow: hidden;
 }
 .principal-investigator-grid .person-photo {
-  max-width: 320px;
+  max-width: 450px;
 }
 .principal-investigator-grid {
   grid-template-columns: 1fr;
