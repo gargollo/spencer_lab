@@ -81,6 +81,19 @@ p { margin: 0 0 var(--space-2); }
   margin: 0 auto;
   padding: 0 var(--space-3);
 }
+/* ---------- Home Photo ---------- */
+
+.home-photo {
+  padding: var(--space-3) 0 0;
+}
+.home-photo img {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+}
+
 /* ---------- carousel ---------- */
 
 .carousel-viewport {
