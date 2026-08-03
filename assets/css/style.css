@@ -259,6 +259,15 @@ nav.main-nav a.active {
 .card h3 { margin-bottom: var(--space-1); }
 .card p { color: var(--cool-gray); font-size: 0.98rem; }
 
+.home-card {
+  border: 1px solid var(--gray-20);
+  border-radius: 4px;
+  padding: var(--space-3);
+}
+.home-card h3 {
+  font-size: 1.4rem;
+}
+
 /* ---------- people ---------- */
 .people-grid {
   display: grid;

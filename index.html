@@ -72,14 +72,12 @@ title: Home
 <section class="section alt">
   <div class="wrap">
     <div class="placeholder-note">
-      This is placeholder content. Edit the text above directly in
-      <code>index.html</code>, and edit the cards below in
-      <code>_data/research.yml</code>.
+      What drives our work?
     </div>
     <p class="section-label">Research</p>
     <div class="grid">
-      {% for area in site.data.research %}
-        <div class="card">
+      {% for area in site.data.home_highlights %}
+        <div class="home-card">
           <h3>{{ area.title }}</h3>
           <p>{{ area.summary }}</p>
         </div>

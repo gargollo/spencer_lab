@@ -1,0 +1,17 @@
+# Homepage-only preview blocks. Independent from _data/research.yml —
+# edit this file without affecting the Research page, and vice versa.
+
+- title: "Diet"
+  summary: >
+    Food is one of the most powerful levers we have to 
+    reshape the gut microbiome, and we want to know how.
+
+- title: "Microbes"
+  summary: >
+    Our lab characterizes the bacteria that inhabit the human 
+    gut, examining their biology, behavior, and the roles they 
+    play in health and disease
+
+- title: "Host"
+  summary: >
+    We examine how the host responds to and shapes both diet and the gut microbiome. 
