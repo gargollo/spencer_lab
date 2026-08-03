@@ -260,7 +260,7 @@ nav.main-nav a.active {
 .card p { color: var(--cool-gray); font-size: 0.98rem; }
 
 .home-card {
-  border: 1px solid var(--gray-20);
+  border: 1px solid var(--cardinal);
   border-radius: 4px;
   padding: var(--space-3);
 }
