@@ -20,7 +20,7 @@ Each `_data/*.yml` file is a simple list — copy an existing block,
 paste it, and edit the text to add a new entry. No need to touch any
 HTML file for these.
 
-## Preview locally (optional but recommended)
+## Preview locally (optional)
 
 You'll need Ruby installed. Then, from this folder:
 
