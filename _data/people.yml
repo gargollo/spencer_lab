@@ -102,13 +102,21 @@
         <a href="mailto:gargollo@stanford.edu">gargollo@stanford.edu</a>
       link: ""
 
-    #- name: "First Last"
-     # role: "Clinical Team"
-      #photo: ""
-      #bio: "Placeholder bio."
-      #full_bio: ""
-      #link: ""
-
+    - name: "Jacob Hizon"
+      role: "Clinical Research Coordinator Associate"
+      photo: "/assets/images/people/JH.jpeg"
+      bio: "Bio"
+      full_bio: >
+        "Jacob joined the Spencer Lab in August 2026. He earned his Bachelor
+        of Science in Microbiology from UC San Diego, where he gained hands-on, 
+        microbiome-focused clinical experience alongside foundational wet lab skills. 
+        Jacob is broadly interested in diversifying and strengthening microbiome databases 
+        to support the development of defined synthetic consortia for treating human disease. 
+        Jacob aspires to pursue a career in medicine to help increase accessibility to targeted 
+        microbiome-based care. Outside the lab, he enjoys exploring new coffee shops around the 
+        Bay Area, reading queer literature, and trying new restaurants."
+          <a href="mailto:jthizon@stanford.edu">jthizon@stanford.edu</a>"
+      link: ""
 
 - section: "Scientists"
   people:
@@ -150,3 +158,10 @@
         immune health. Outside of the lab, he enjoys hiking, playing piano, and trying new restaurants.
         <a href="mailto:wrubin@stanford.edu">wrubin@stanford.edu</a>
       link: "wrubin@stanford.edu"
+
+ #- name: "First Last"
+     # role: "Clinical Team"
+      #photo: ""
+      #bio: "Placeholder bio."
+      #full_bio: ""
+      #link: ""

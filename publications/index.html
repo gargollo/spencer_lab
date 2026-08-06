@@ -33,12 +33,13 @@ permalink: /publications/
   <div class="wrap">
     <p class="section-label">All Publications</p>
     <div class="pub-list">
-      {% for pub in site.data.publications %}
-        <article class="pub-item">
-          <h3><a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
-          <p class="pub-authors">{{ pub.authors }}</p>
-          <p class="pub-journal">{{ pub.journal }}</p>
-        </article>
+        {% for pub in site.data.publications %}
+          <article class="pub-item">
+            <h3><a href="{{ pub.link }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+            <p class="pub-authors">{{ pub.authors }}</p>
+            <p class="pub-journal">{{ pub.journal }}</p>
+          </article>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
