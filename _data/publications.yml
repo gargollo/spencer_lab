@@ -2,6 +2,56 @@
 # papers — they'll show in the highlighted section up top. Every
 # entry, featured or not, also appears in "All Publications" below.
 
+  
+- title: "Metagenomic immunoglobulin sequencing reveals IgA coating of microbial strains in the healthy human gut."
+  authors: "Olm, M. R., Spencer, S. P., Takeuchi, T., Silva, E. L., Sonnenburg, J. L"
+  journal: "Nature microbiology, 2025"
+  link: "https://profiles.stanford.edu/sean-spencer?tab=publications#:~:text=View%20details%20for-,PubMedID%2039747692,-View%20details%20for"
+  featured: true
+
+- title: "Ultra-deep sequencing of Hadza hunter-gatherers recovers vanishing gut microbes"
+  authors: "Carterm M.M., Olm, M. R., Merrill, B. D., Dahan, D., Tripathi, Spencer, S. S., et al."
+  journal: "Cell, 2023"
+  link: "https://doi.org/10.1016/j.cell.2023.05.046"
+  featured: true
+
+- title: "Pursuing Human-Relevant Gut Microbiota-Immune Interactions."
+  authors: "Spencer, S. P., Fragiadakis, G. K., Sonnenburg, J. L."
+  journal: "Immunity, 2019"
+  link: "https://pubmed.ncbi.nlm.nih.gov/31433970/"
+  featured: true
+
+- title: "Impact of a 7-day homogeneous diet on interpersonal variation in human gut microbiomes and metabolomes."
+  authors: "Guthrie, L., Spencer, S. P., Perelman, D., Van Treuren, W., Han, S., Yu, F. B., Sonnenburg, E. D., Fischbach, M. A., Meyer, T. W., Sonnenburg, J. L."
+  journal: "Cell host & microbe, 2022"
+  link: "https://pubmed.ncbi.nlm.nih.gov/35643079/"
+  featured: true
+
+- title: "Placeholder paper title four"
+  authors: "Last F, Spencer S, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: true
+
+- title: "Placeholder paper title two"
+  authors: "Spencer S, Last F, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: true
+
+- title: "Placeholder paper title three"
+  authors: "Spencer S, Last F, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: true
+
+- title: "Placeholder paper title four"
+  authors: "Last F, Spencer S, et al."
+  journal: "Journal Name, Year"
+  link: "https://doi.org/xxxxx"
+  featured: false
+
+
 - title: "Placeholder paper title one"
   authors: "Spencer S, Last F, Last F, et al."
   journal: "Journal Name, Year"
