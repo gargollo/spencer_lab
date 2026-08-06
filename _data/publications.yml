@@ -30,19 +30,19 @@
   authors: "Last F, Spencer S, et al."
   journal: "Journal Name, Year"
   link: "https://doi.org/xxxxx"
-  featured: true
+  featured: false
 
-- title: "Placeholder paper title two"
-  authors: "Spencer S, Last F, et al."
+- title: "Placeholder paper title four"
+  authors: "Last F, Spencer S, et al."
   journal: "Journal Name, Year"
   link: "https://doi.org/xxxxx"
-  featured: true
+  featured: false
 
-- title: "Placeholder paper title three"
-  authors: "Spencer S, Last F, et al."
+- title: "Placeholder paper title four"
+  authors: "Last F, Spencer S, et al."
   journal: "Journal Name, Year"
   link: "https://doi.org/xxxxx"
-  featured: true
+  featured: false
 
 - title: "Placeholder paper title four"
   authors: "Last F, Spencer S, et al."
