@@ -3,7 +3,7 @@
 
 - image: "/assets/images/carousel/GI department.png"
   alt: "Lab members in the field"
-- image: "/assets/images/carousel/photo2.jpg"
-  alt: "Sample analysis in the lab"
-- image: "/assets/images/carousel/photo3.jpg"
-  alt: "Team meeting"
+- #image: "/assets/images/carousel/photo2.jpg"
+  #alt: "Sample analysis in the lab"
+- #image: "/assets/images/carousel/photo3.jpg"
+  #alt: "Team meeting"
