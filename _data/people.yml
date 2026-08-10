@@ -140,9 +140,19 @@
       photo: "/assets/images/people/ND.jpeg"
       bio: ""
       full_bio: >
-        Placeholder full bio. This can be several sentences or paragraphs —
-        background, training, research interests, whatever you want visible
-        only when someone clicks "Read full bio.".
+        Niokhor is a microbial discovery scientist and entrepreneur building next-generation microbiome
+        characterization for Diagnostic and therapeutic. He joined the Spencer Lab in May 2026 as a 
+        Senior Scientist to support and lead the lab's microbial discovery and translational 
+        microbiology efforts, including the development of its culturomics platform. He oversees 
+        the isolation and characterization of gut bacterial strains from the small intestine, and directs
+        the design of microbial consortia and in vitro models for studying diet-microbiome-disease interactions. 
+        Niokhor holds a DVM and PhD from Aix-Marseille University, where he trained at IHU Méditerranée Infection
+        and was part of the team that pioneered the microbial culturomics method, a high-throughput, culture-based
+        approach that has led to the discovery of hundreds of previously unknown bacterial species from the human gut. 
+        Over the course of his career, he has built culturomics laboratories from scratch across three countries in 
+        both academia and industry, and developed microbiome-based products. He brings over 16 years of experience 
+        spanning academic research and the biotechnology industry, with expertise that covers the full pipeline from 
+        microbial discovery to translational development. Outside the lab, he enjoys spending time with his kids and playing soccer.
         <a href="mailto:ndione@stanford.edu">ndione@stanford.edu</a>
       link: ""
     - name: "Anya Raju"

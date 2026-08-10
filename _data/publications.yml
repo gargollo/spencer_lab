@@ -27,51 +27,45 @@
   link: "https://pubmed.ncbi.nlm.nih.gov/35643079/"
   featured: true
 
-- title: "Inclusion of stabilised rice bran in ready-to-use therapeutic food supports growth in Indonesian children with severe and moderate acute malnutrition: SEHAT, a double-blinded, randomised clinical trial."
-  authors: "Barbazza, S. , Weber, A. M., et al."
-  journal: "Journal of Nutritional Science, 2026."
-  link: "https://pubmed.ncbi.nlm.nih.gov/41737350/"
-  featured: false
+- #title: "Inclusion of stabilised rice bran in ready-to-use therapeutic food supports growth in Indonesian children with severe and moderate acute malnutrition: SEHAT, a double-blinded, randomised clinical trial."
+  #authors: "Barbazza, S. , Weber, A. M., et al."
+  #journal: "Journal of Nutritional Science, 2026."
+  #link: "https://pubmed.ncbi.nlm.nih.gov/41737350/"
+  #featured: false
 
-- title: "A quasi-universal medium to break the aerobic/anaerobic bacterial culture dichotomy in clinical microbiology"
-  authors: "Dione, N., Khelaifia, S., La Scola, B., et al."
-  journal: "Clinical Microbiology and Infection, 2016."
-  link: "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(15)00972-6/fulltext"
-  featured: false
+- #title: "A quasi-universal medium to break the aerobic/anaerobic bacterial culture dichotomy in clinical microbiology"
+  #authors: "Dione, N., Khelaifia, S., La Scola, B., et al."
+  #journal: "Clinical Microbiology and Infection, 2016."
+  #link: "https://www.clinicalmicrobiologyandinfection.org/article/S1198-743X(15)00972-6/fulltext"
+  #featured: false
 
-- title: "Solutions to Enhance Health with Alternative Treatments (SEHAT) protocol: a double-blinded randomised controlled trial for gut microbiota-targeted treatment of severe acute malnutrition using rice bran in ready-to-use therapeutic foods in Indonesia"
-  authors: "Weber, A. M., Barbazza, S. , Fauzi, M. D., et al."
-  journal: "BMJ Open, 2023"
-  link: "https://pubmed.ncbi.nlm.nih.gov/38000818/"
-  featured: false
+- #title: "Solutions to Enhance Health with Alternative Treatments (SEHAT) protocol: a double-blinded randomised controlled trial for gut microbiota-targeted treatment of severe acute malnutrition using rice bran in ready-to-use therapeutic foods in Indonesia"
+  #authors: "Weber, A. M., Barbazza, S. , Fauzi, M. D., et al."
+  #journal: "BMJ Open, 2023"
+  #link: "https://pubmed.ncbi.nlm.nih.gov/38000818/"
+  #featured: false
 
-- title: "In vitro and in silico elucidation of antidiabetic and anti-inflammatory activities of bioactive compounds from Momordica charantia L"
-  authors: "Shivanagoudra, S. R., Perera, W. H., Perez, J. L., et al."
-  journal: "Journal Name, Year"
-  link: "https://www.sciencedirect.com/science/article/abs/pii/S0968089619304584?via%3Dihub"
-  featured: false
+#- title: "In vitro and in silico elucidation of antidiabetic and anti-inflammatory activities of bioactive compounds from Momordica charantia L"
+ # authors: "Shivanagoudra, S. R., Perera, W. H., Perez, J. L., et al."
+  #journal: "Journal Name, Year"
+  #link: "https://www.sciencedirect.com/science/article/abs/pii/S0968089619304584?via%3Dihub"
+  #featured: false
 
 
-- title: "Placeholder paper title one"
-  authors: "Spencer S, Last F, Last F, et al."
-  journal: "Journal Name, Year"
-  link: "https://doi.org/xxxxx"
-  featured: false
+- #title: "Placeholder paper title one"
+  #authors: "Spencer S, Last F, Last F, et al."
+  #journal: "Journal Name, Year"
+  #link: "https://doi.org/xxxxx"
+  #featured: false
 
-- title: "Placeholder paper title two"
-  authors: "Spencer S, Last F, et al."
-  journal: "Journal Name, Year"
-  link: "https://doi.org/xxxxx"
-  featured: false
+- #title: "Placeholder paper title one"
+  #authors: "Spencer S, Last F, Last F, et al."
+  #journal: "Journal Name, Year"
+  #link: "https://doi.org/xxxxx"
+  #featured: false
 
-- title: "Placeholder paper title three"
-  authors: "Spencer S, Last F, et al."
-  journal: "Journal Name, Year"
-  link: "https://doi.org/xxxxx"
-  featured: false
-
-- title: "Placeholder paper title four"
-  authors: "Last F, Spencer S, et al."
-  journal: "Journal Name, Year"
-  link: "https://doi.org/xxxxx"
-  featured: false
+- #title: "Placeholder paper title one"
+  #authors: "Spencer S, Last F, Last F, et al."
+  #journal: "Journal Name, Year"
+  #link: "https://doi.org/xxxxx"
+  #featured: false
