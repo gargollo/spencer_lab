@@ -65,7 +65,7 @@
     - name: "Roujheen Sabetan"
       role: "Clinical Research Co-ordinator 2"
       photo: "/assets/images/people/RS.jpeg"
-      bio: "Clinical Research Coordinator who joined the Spencer Lab in February 2026."
+      bio: ""
       full_bio: 
         Roujheen earned her Master of Public Health in Nutrition from UC Berkeley and brings over five years of research 
         experience, primarily focused on nutrition and the microbiome. Prior to joining the Spencer Lab, she worked with 
@@ -78,7 +78,7 @@
     - name: "Aubrey Adiao"
       role: "Clinical Research Co-ordinator 2"
       photo: "/assets/images/people/AA.jpg"
-      bio: "Certified Clinical Research Coordinator who joined the Spencer Lab in November 2025."
+      bio: ""
       full_bio: >
         Aubrey brings over 12 years of human subjects research experience and previously worked on studies from a variety 
         of disciplines such as Psychology, Neonatology, Infectious Diseases, and Oncology before hitting her stride in 
@@ -91,7 +91,7 @@
     - name: "Maria Gargollo"
       role: "Master's Student"
       photo: "/assets/images/people/MG.jpg"
-      bio: "MTRAM student at Stanford."
+      bio: ""
       full_bio: >
         Maria is a Master’s student in Translational Research and Applied Medicine at Stanford School of Medicine. 
         Her academic and professional interests lie at the intersection of biomedical innovation and regulatory science. Her main 
@@ -105,7 +105,7 @@
     - name: "Jacob Hizon"
       role: "Clinical Research Coordinator Associate"
       photo: "/assets/images/people/JH.jpeg"
-      bio: "Bio"
+      bio: ""
       full_bio: >
         "Jacob joined the Spencer Lab in August 2026. He earned his Bachelor
         of Science in Microbiology from UC San Diego, where he gained hands-on, 
@@ -123,7 +123,7 @@
     - name: "Niokhor Dione"
       role: "Scientist"
       photo: "/assets/images/people/ND.jpeg"
-      bio: " Bio"
+      bio: ""
       full_bio: >
         Placeholder full bio. This can be several sentences or paragraphs —
         background, training, research interests, whatever you want visible
@@ -148,7 +148,7 @@
     - name: "William Rubin"
       role: "LSRP 1"
       photo: "/assets/images/people/WR.jpeg"
-      bio: " Bio"
+      bio: ""
       full_bio: >
         Will is a Life Science Research Professional who joined the Spencer Lab in July 2026. 
         He holds a BS in Biology and Applied Physics and an MS in Biology from Tufts University. 
