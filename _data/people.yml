@@ -60,6 +60,21 @@
         <a href="mailto:siddu04@stanford.edu">siddu04@stanford.edu</a>
       link: "siddu04@stanford.edu"
 
+    - name: "Jiawei Sun"
+      role: "Postdoctoral Scholar"
+      photo: "/assets/images/people/JS.JPEG"
+      bio: "Postdoctoral scholar studying microbial community assembly and microbiome-immune interactions."
+      full_bio:
+       Jiawei is a postdoctoral scholar interested in the organizing principles of microbial communities 
+       and their interactions with the host immune system. He earned his Ph.D. in Bioengineering from Stanford 
+       University, where he used microscopy and microfluidics to study the physical principles that organize 
+       the bacterial cell surface. In the Spencer Lab, Jiawei studies how microbial communities and mucosal 
+       immune responses shape one another using defined microbial communities and gnotobiotic models. More 
+       broadly, he likes to think about complex living systems in quantitative ways. Outside the lab, he enjoys 
+       sports with a net (badminton, tennis, ping pong etc.) and exploring good restaurants.
+        <a href="mailto:jsun2019@stanford.edu">jsun2019@stanford.edu</a>
+      link: ""
+
 - section: "Clinical Team"
   people:
     - name: "Roujheen Sabetan"
