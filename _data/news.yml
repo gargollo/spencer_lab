@@ -2,12 +2,15 @@
 # "date" just needs to be readable text (e.g. "July 2026") — it's for
 # display, not sorted automatically, so keep newest at the top.
 
-- date: "September 2024"
-  title: "The Foods That Fight Inflammation"
-  image: "/assets/images/news/NYT inflammation.webp"
-  link: "https://www.nytimes.com/2024/09/18/well/eat/inflammation-food-diet.html"
+- date: "March 2026"
+  title: "Can You Overdo Fiber? The Rise—and Risks—of Fibermaxxing"
+  image: "/assets/images/news/Time.webp"
+  link: "https://time.com/article/2026/03/25/what-fibermaxxing-gets-wrong-about-fiber/"
   body: >
-    Chronic inflammation can be a silent killer, but your diet can play a role in tamping it down.
+    When a type of food or wellness trend becomes largely understood as  “healthy,” 
+    many of us assume that more of it is always beneficial, without limit. This “more is 
+    better” mentality spreads on social media, where the spectacle of “maxxing” out gets 
+    clicks, while the old-school approach of strategic moderation gets scrolled right by. 
 
 - date: "October 2026"
   title: "How does food change the microbiome and our overall health?"
@@ -20,24 +23,23 @@
     introducing variety of foods in small doses, adding more fiber and fermented 
     foods to their diet, and giving “gut shots” of brine from fermented foods.
 
-
-- date: "March 2026"
-  title: "Can You Overdo Fiber? The Rise—and Risks—of Fibermaxxing"
-  image: "/assets/images/news/Time.webp"
-  link: "https://time.com/article/2026/03/25/what-fibermaxxing-gets-wrong-about-fiber/"
+- date: "September 2025"
+  title: "Gut feelings"
+  image: "/assets/images/news/Gut feeling.jpg"
+  link: "https://stanmed.stanford.edu/gi-conditions-gut-brain-connections/"
   body: >
-    When a type of food or wellness trend becomes largely understood as  “healthy,” many of us assume that more of it is always beneficial, without limit. This “more is better” mentality spreads on social media, where the spectacle of “maxxing” out gets clicks, while the old-school approach of strategic moderation gets scrolled right by. 
+    Untangling the complex connections between the gut, brain and microbiome to heal chronic GI conditions.
 
-- date: "July 2026"
-  title: "Placeholder news headline"
-  image: "/assets/images/news/photo1.jpg"
-  link: "https://example.com/full-article"
+- date: "June 2026"
+  title: "The facts about fiber: What Stanford Medicine experts want you to know"
+  image: "/assets/images/news/fiber-science.jpeg"
+  link: "https://med.stanford.edu/news/insights/2026/06/fiber-facts-science-how-much-do-you-need.html"
   body: >
-    Placeholder text describing the news item..
+    Dietary fiber feeds your microbiome and helps keep things moving on the regular, but most of us aren’t getting nearly enough of this unsung nutrient.
 
-- date: "July 2026"
-  title: "Placeholder news headline"
-  image: "/assets/images/news/photo1.jpg"
-  link: "https://example.com/full-article"
+- date: "September 2024"
+  title: "The Foods That Fight Inflammation"
+  image: "/assets/images/news/NYT inflammation.webp"
+  link: "https://www.nytimes.com/2024/09/18/well/eat/inflammation-food-diet.html"
   body: >
-    Placeholder text describing the news item..
+    Chronic inflammation can be a silent killer, but your diet can play a role in tamping it down.
