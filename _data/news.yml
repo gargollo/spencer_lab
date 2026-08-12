@@ -2,13 +2,42 @@
 # "date" just needs to be readable text (e.g. "July 2026") — it's for
 # display, not sorted automatically, so keep newest at the top.
 
-- date: "July 2026"
-  title: "Placeholder news headline"
+- date: "September 2024"
+  title: "The Foods That Fight Inflammation"
+  image: "/assets/images/news/NYT inflammation.webp"
+  link: "https://www.nytimes.com/2024/09/18/well/eat/inflammation-food-diet.html"
   body: >
-    Placeholder text describing the news item — a new publication,
-    a lab member joining, an award, a talk, etc.
+    Chronic inflammation can be a silent killer, but your diet can play a role in tamping it down.
+
+- date: "October 2026"
+  title: "How does food change the microbiome and our overall health?"
+  image: "/assets/images/news/HealthCompass.png"
+  link: "https://med.stanford.edu/health-compass-podcast/microbiome-food.html"
+  body: >
+    Sean Spencer, MD, PhD, instructor of medicine, explores how he treats patients
+    with challenging gastrointestinal issues, working with them to heal their gut 
+    and improve their microbiome through a variety of tactics, including through 
+    introducing variety of foods in small doses, adding more fiber and fermented 
+    foods to their diet, and giving “gut shots” of brine from fermented foods.
+
 
 - date: "March 2026"
-  title: "Placeholder news headline"
+  title: "Can You Overdo Fiber? The Rise—and Risks—of Fibermaxxing"
+  image: "/assets/images/news/Time.webp"
+  link: "https://time.com/article/2026/03/25/what-fibermaxxing-gets-wrong-about-fiber/"
   body: >
-    Placeholder text describing another news item.
+    When a type of food or wellness trend becomes largely understood as  “healthy,” many of us assume that more of it is always beneficial, without limit. This “more is better” mentality spreads on social media, where the spectacle of “maxxing” out gets clicks, while the old-school approach of strategic moderation gets scrolled right by. 
+
+- date: "July 2026"
+  title: "Placeholder news headline"
+  image: "/assets/images/news/photo1.jpg"
+  link: "https://example.com/full-article"
+  body: >
+    Placeholder text describing the news item..
+
+- date: "July 2026"
+  title: "Placeholder news headline"
+  image: "/assets/images/news/photo1.jpg"
+  link: "https://example.com/full-article"
+  body: >
+    Placeholder text describing the news item..
