@@ -14,10 +14,12 @@ permalink: /news/
 
 <section class="section">
   <div class="wrap">
+    {% comment %}
     <div class="placeholder-note">
       Edit the entries below in <code>_data/news.yml</code> — add a new
       block at the top for the latest item.
     </div>
+    {% endcomment %}
     <div class="news-list">
       {% for item in site.data.news %}
         <article class="news-item">
