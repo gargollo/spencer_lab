@@ -172,7 +172,7 @@
 
 - section: "Alumni"
   people:
-      - name: "Maria Gargollo"
+    - name: "Maria Gargollo"
       role: "Master's Student"
       photo: "/assets/images/people/MG.jpg"
       bio: ""
