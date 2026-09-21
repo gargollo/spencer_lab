@@ -1,8 +1,11 @@
 <header class="site-header">
   <div class="wrap">
-    <a class="site-title" href="{{ '/' | relative_url }}">
-      {{ site.title }}
-      <span class="dept">{{ site.contact.department }}</span>
+     <a class="site-title" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/logo.png' | relative_url }}" alt="Spencer Lab logo" class="site-logo">
+      <span class="site-title-text">
+        {{ site.title }}
+        <span class="dept">{{ site.contact.department }}</span>
+      </span>
     </a>
     <nav class="main-nav" aria-label="Main navigation">
       <ul>
