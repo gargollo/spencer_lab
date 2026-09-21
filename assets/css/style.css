@@ -478,3 +478,14 @@ nav.main-nav a.active {
 .research-block h2 {
   color: var(--cardinal);
 }
+
+.site-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.site-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
