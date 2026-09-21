@@ -103,20 +103,6 @@
         <a href="mailto:aadiao@stanford.edu">aadiao@stanford.edu</a>
       link: ""
 
-    - name: "Maria Gargollo"
-      role: "Master's Student"
-      photo: "/assets/images/people/MG.jpg"
-      bio: ""
-      full_bio: >
-        Maria is a Master’s student in Translational Research and Applied Medicine at Stanford School of Medicine. 
-        Her academic and professional interests lie at the intersection of biomedical innovation and regulatory science. Her main 
-        focus is on how regulatory strategy can accelerate access to safe and effective therapies, microbiome based interventions and 
-        preventative measures. Through her training both on the bench and the pharmaceutical sector, she has gained experience in 
-        clinical research design, scientific communication and cross-disciplinary collaboration. She aims to build a career that 
-        bridges scientific discovery and regulatory decision-making to bring science based solutions to patients.
-        <a href="mailto:gargollo@stanford.edu">gargollo@stanford.edu</a>
-      link: ""
-
     - name: "Jacob Hizon"
       role: "Clinical Research Coordinator Associate"
       photo: "/assets/images/people/JH.jpeg"
@@ -184,8 +170,22 @@
         <a href="mailto:wrubin@stanford.edu">wrubin@stanford.edu</a>
       link: "wrubin@stanford.edu"
 
-- section: "Scientists"
-
+- section: "Alumni"
+  people:
+      - name: "Maria Gargollo"
+      role: "Master's Student"
+      photo: "/assets/images/people/MG.jpg"
+      bio: ""
+      full_bio: >
+        Maria is a Master’s student in Translational Research and Applied Medicine at Stanford School of Medicine. 
+        Her academic and professional interests lie at the intersection of biomedical innovation and regulatory science. Her main 
+        focus is on how regulatory strategy can accelerate access to safe and effective therapies, microbiome based interventions and 
+        preventative measures. Through her training both on the bench and the pharmaceutical sector, she has gained experience in 
+        clinical research design, scientific communication and cross-disciplinary collaboration. She aims to build a career that 
+        bridges scientific discovery and regulatory decision-making to bring science based solutions to patients.
+        <a href="mailto:gargollo@stanford.edu">gargollo@stanford.edu</a>
+      link: ""
+      
  #- name: "First Last"
      # role: "Clinical Team"
       #photo: ""
